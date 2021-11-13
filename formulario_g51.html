@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Formulario en HTML</title>
+    </head>
+    <body>
+        <form action="formulario_g51.html" method="POST">
+            <h3>Texto</h3>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="texto" id="texto" size="30" maxlength="50">
+
+            <h3>Contraseña</h3>
+            <label for="contra">Contraseña:</label>
+            <input type="password" name="clave" id="clave" size="10" maxlength="10">
+
+            <h3>Area de texto</h3>
+            <textarea name="comentario" id="comentario" cols="30" rows="12"></textarea>
+
+            <h3>Spinner</h3>
+            <label for="spin">Spinner:</label>
+            <input type="number" name="spin" id="spin" min="1" max="10" step="1">
+
+            <h3>Fecha</h3>
+            <label for="fec">Fecha:</label>
+            <input type="date" name="fecha" id="fecha">
+
+            <h3>Fecha-Hora:</h3>
+            <label for="fechor">Fecha-Hora:</label>
+            <input type="datetime-local" name="fechahora" id="fechahora">
+
+            <h3>Email:</h3>
+            <label for="emai">Email:</label>
+            <input type="email" name="email" id="email" autocomplete="off">
+
+            <h3>Rango:</h3>
+            <label for="rango">Rango:</label>
+            <input type="range" name="rango" id="rango" min="0" max="40">
+
+            <h3>Hora:</h3>
+            <label for="Hora">Hora:</label>
+            <input type="time" name="hora" id="hora">
+
+            <h3>Url:</h3>
+            <label for="utl">Url:</label>
+            <input type="url" name="url" id="url">
+
+            <h3>Semana:</h3>
+            <label for="semana">Semana:</label>
+            <input type="week" name="semana" id="semana">
+
+            <h3>Radio:</h3>
+            <input type="radio" name="genero" id="genero" value="F">Femenino<br>
+            <input type="radio" name="genero" id="genero" value="M">Masculino
+
+            <h3>Lista de despliegue:</h3>
+            <label for="Vehículos">Vehículos:</label>
+            <select name="autos" id="autos">Lista de marcas
+                <option value="mazda">Mazda</option>
+                <option value="ford">Ford</option>
+                <option value="renault">Renault</option>
+                <option value="bmw">BMW</option>
+            </select>
+
+            <h3>Archivos:</h3>
+            <label for="archivo">Archivo:</label>
+            <input type="file" name="archivo" id="archivo"><br<br><br>
+
+            <br><br><input type="submit" value="Procesar">
+
+
+        </form>
+    </body>
+</html>
